@@ -11,7 +11,7 @@ Vocallabs is a legible B2B SaaS teardown with obvious competitors. Subspace is t
 
 ---
 
-## 5 Sharp Feedbacks — One Per Pillar
+## 5 Sharp Feedbacks - One Per Pillar
 
 | # | Pillar | Feedback | Priority |
 |---|--------|----------|----------|
