@@ -1,13 +1,13 @@
-# Subspace.money — Product Teardown
+# Subspace.mone - Product Teardown
 ### Product Intern Assignment · Vocallabs.ai · 2026
 
-> **Note:** I signed up and used the Subspace app before writing this. All observations below are from direct product usage — screenshots attached as evidence.
+> **Note:** I signed up and used the Subspace app before writing this. All observations below are from direct product usage - screenshots attached as evidence.
 
 ---
 
 ## Why Subspace, not Vocallabs?
 
-Vocallabs is a legible B2B SaaS teardown with obvious competitors. Subspace is the harder problem — it sits at the intersection of **social trust dynamics**, **fintech**, and **marketplace cold-start**, all at once. The five feedbacks below each cover a distinct pillar with no overlap.
+Vocallabs is a legible B2B SaaS teardown with obvious competitors. Subspace is the harder problem - it sits at the intersection of **social trust dynamics**, **fintech**, and **marketplace cold-start**, all at once. The five feedbacks below each cover a distinct pillar with no overlap.
 
 ---
 
@@ -23,7 +23,7 @@ Vocallabs is a legible B2B SaaS teardown with obvious competitors. Subspace is t
 
 ---
 
-## Feedback 01 — UX
+## Feedback 01 - UX
 ### Shared-subscription flow puts all trust liability on strangers — with zero safety net before money leaves
 
 **Observed**
@@ -34,7 +34,7 @@ Real Google Play reviews:
 > *"you are dependent on admins"*
 > *"would advise against shared subscription as you're dependent on admins"*
 
-The only platform recourse is leaving a negative review — which triggers reactive support only after money is already lost.
+The only platform recourse is leaving a negative review - which triggers reactive support only after money is already lost.
 
 **Problem**
 Subspace's network-effects moat relies on public groups growing. But public groups require trust in strangers  trust the product currently offloads entirely to admin goodwill. Every betrayal event (admin goes silent, credential revoked post-payment) is a trust-destruction event at the **platform level**, not just the user level.
@@ -42,28 +42,28 @@ Subspace's network-effects moat relies on public groups growing. But public grou
 Porter's lens: low switching costs + high substitute availability (Telegram reseller groups) = one bad experience → permanent churn. This is a churn multiplier disguised as a support ticket.
 
 **Ship Instead**
-Introduce a **24-hour credential-delivery SLA with automatic escrow**: payment is held, released to the admin only after the member confirms access. Add an **Admin Trust Score** visible during the join flow — calculated from on-time delivery rate, dispute rate, response time — shown as a 3-tier badge (Verified / Standard / New). Every successful delivery becomes a compounding trust signal and reduces reactive support load structurally.
+Introduce a **24-hour credential-delivery SLA with automatic escrow**: payment is held, released to the admin only after the member confirms access. Add an **Admin Trust Score** visible during the join flow - calculated from on-time delivery rate, dispute rate, response time - shown as a 3-tier badge (Verified / Standard / New). Every successful delivery becomes a compounding trust signal and reduces reactive support load structurally.
 
 ---
 
-## Feedback 02 — GTM & ICPs
+## Feedback 02 - GTM & ICPs
 ### Subspace runs 6+ different products on one screen — and acquires no user efficiently
 
 **Observed (with screenshot evidence)**
 
 After logging in, the homepage shows 4 quick-action tiles simultaneously:
-- **Add Subscriptions** — "Track and manage your services"
-- **Bill Payments** — "Pay bills and recharge"
-- **Events** — "Bid to earn exclusive rewards"
-- **Sell Products** — "Manage & list your vendor products"
+- **Add Subscriptions** - "Track and manage your services"
+- **Bill Payments** - "Pay bills and recharge"
+- **Events** - "Bid to earn exclusive rewards"
+- **Sell Products** - "Manage & list your vendor products"
 
 ![Homepage showing 6 different products](./screenshot_03_homepage_logged_in.png)
-*Screenshot: Logged-in homepage — 4 different product categories in the first screen alone, with "No Active Subscriptions" as the hero state*
+*Screenshot: Logged-in homepage - 4 different product categories in the first screen alone, with "No Active Subscriptions" as the hero state*
 
-The Explore page simultaneously shows a hero banner saying **"From browsing to delivery"** (rental product) next to Zee5 50% OFF and Google Play gift cards (deals product) — two completely different value props in the same frame.
+The Explore page simultaneously shows a hero banner saying **"From browsing to delivery"** (rental product) next to Zee5 50% OFF and Google Play gift cards (deals product) - two completely different value props in the same frame.
 
 ![Explore page mixed messaging](./screenshot_01_explore_page.png)
-*Screenshot: Explore page — the hero promotes the delivery/rental product while the ticker and brand grid promote subscription discounts*
+*Screenshot: Explore page - the hero promotes the delivery/rental product while the ticker and brand grid promote subscription discounts*
 
 "Events" (bid to earn rewards) and "Sell Products" (vendor listing) don't appear anywhere in Subspace's public marketing or Play Store description. A new user hitting this screen has zero idea what Subspace's primary job is.
 
@@ -79,8 +79,8 @@ This is a Jobs-to-be-Done argument: **own one job deeply before expanding.**
 
 ---
 
-## Feedback 03 — Features / Services
-### The Negotiate API is Subspace's most defensible moat — completely invisible on every screen
+## Feedback 03 - Features / Services
+### The Negotiate API is Subspace's most defensible moat - completely invisible on every screen
 
 **Observed (with screenshot evidence)**
 
@@ -100,7 +100,7 @@ Porter: bargaining power of buyers is high when they see identical products. Hid
 
 **Ship Instead**
 Surface the negotiation as a feature story on every brand page:
-> *"Subspace negotiated price: ₹973 · Retail price: ₹1000 · You save: ₹27 — every single time"*
+> *"Subspace negotiated price: ₹973 · Retail price: ₹1000 · You save: ₹27 - every single time"*
 
 Add a single-screen "How we negotiate" explainer (one-time, skippable) during onboarding. This reframes Subspace from "deals app" to **"the app that fights on your behalf"** — a story Cashkaro and Magicpin literally cannot copy because they don't share the same commercial structure.
 
@@ -108,11 +108,11 @@ Add a single-screen "How we negotiate" explainer (one-time, skippable) during on
 
 ---
 
-## Feedback 04 — Competitor Analysis
+## Feedback 04 - Competitor Analysis
 ### Subspace's real competitor isn't another app — it's WhatsApp groups, and the product ignores this
 
 **Observed**
-Tracxn lists myPaisaa, MoneyClub, and Finlok as Subspace's competitors. But the dominant behavior Subspace is actually displacing is **not "using a competing app"** — it's informal WhatsApp groups where 4 friends split a Netflix plan, one person collects via UPI, and a shared Google Sheet tracks who paid. No app involved.
+Tracxn lists myPaisaa, MoneyClub, and Finlok as Subspace's competitors. But the dominant behavior Subspace is actually displacing is **not "using a competing app"** - it's informal WhatsApp groups where 4 friends split a Netflix plan, one person collects via UPI, and a shared Google Sheet tracks who paid. No app involved.
 
 The logged-in homepage (Screenshot 1) shows "No Active Subscriptions" as the hero state for a new user — meaning the product has no answer for someone who just wants to share a plan they already have. The flow assumes the user comes to Subspace to discover and buy a subscription, not to coordinate one they already manage informally.
 
@@ -128,7 +128,7 @@ This mirrors how Razorpay Payment Links worked — reducing barrier to zero for 
 
 ---
 
-## Feedback 05 — Potential Collaborations
+## Feedback 05 - Potential Collaborations
 ### India's first local subscription marketplace exists in the product description — not in the go-to-market
 
 **Observed**
@@ -171,8 +171,8 @@ Each local listing opens a new acquisition funnel: a Bengaluru tiffin service's 
 
 ## Framework Used
 
-- **Porter's Five Forces** — threat of substitutes (high in every vertical), buyer bargaining power (high when product looks like a commodity), barriers to entry (currently low, local marketplace could build them)
-- **Jobs-to-be-Done** — identifies the real incumbent behavior (WhatsApp groups, not competing apps) and the primary job users hire Subspace for
+- **Porter's Five Forces** - threat of substitutes (high in every vertical), buyer bargaining power (high when product looks like a commodity), barriers to entry (currently low, local marketplace could build them)
+- **Jobs-to-be-Done** - identifies the real incumbent behavior (WhatsApp groups, not competing apps) and the primary job users hire Subspace for
 
 ---
 
@@ -181,7 +181,7 @@ Each local listing opens a new acquisition funnel: a Bengaluru tiffin service's 
 | File | What it shows | Used in |
 |------|--------------|---------|
 | `screenshot_03_homepage_logged_in.png` | 6 different product tiles on one logged-in home screen | Feedback 02 |
-| `screenshot_01_explore_page.png` | Mixed messaging — delivery hero + discount ticker simultaneously | Feedback 02 |
+| `screenshot_01_explore_page.png` | Mixed messaging - delivery hero + discount ticker simultaneously | Feedback 02 |
 | `screenshot_02_brand_listing.png` | Brand page showing discounts with zero mention of how they were negotiated | Feedback 03 |
 
 ---
