@@ -1,4 +1,4 @@
-# Subspace.mone - Product Teardown
+# Subspace.money - Product Teardown
 ### Product Intern Assignment · Vocallabs.ai · 2026
 
 > **Note:** I signed up and used the Subspace app before writing this. All observations below are from direct product usage - screenshots attached as evidence.
@@ -15,16 +15,16 @@ Vocallabs is a legible B2B SaaS teardown with obvious competitors. Subspace is t
 
 | # | Pillar | Feedback | Priority |
 |---|--------|----------|----------|
-| 01 | UX | Shared-subscription flow puts all trust liability on strangers — zero safety net before money leaves | P0 |
-| 02 | GTM & ICPs | Subspace runs 6+ different products on one screen — and acquires no user efficiently | P0 |
-| 03 | Features / Services | The Negotiate API is the real moat — completely invisible to users on every screen | P1 |
-| 04 | Competitor Analysis | The real competitor isn't an app — it's WhatsApp groups, and the product ignores this | P0 |
+| 01 | UX | Shared-subscription flow puts all trust liability on strangers - zero safety net before money leaves | P0 |
+| 02 | GTM & ICPs | Subspace runs 6+ different products on one screen - and acquires no user efficiently | P0 |
+| 03 | Features / Services | The Negotiate API is the real moat - completely invisible to users on every screen | P1 |
+| 04 | Competitor Analysis | The real competitor isn't an app - it's WhatsApp groups, and the product ignores this | P0 |
 | 05 | Potential Collaborations | India's first local subscription marketplace exists in the description, not the go-to-market | P2 |
 
 ---
 
 ## Feedback 01 - UX
-### Shared-subscription flow puts all trust liability on strangers — with zero safety net before money leaves
+### Shared-subscription flow puts all trust liability on strangers - with zero safety net before money leaves
 
 **Observed**
 When joining a public sharing group (e.g. a Netflix Premium pool run by a stranger), the user pays their share immediately before the admin shares credentials. There is no escrow, no admin trust rating shown during the join flow, and the dispute CTA is buried 3 taps deep under Account → Help → Raise a concern.
